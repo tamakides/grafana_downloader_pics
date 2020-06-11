@@ -1,0 +1,30 @@
+{
+  "cfg": {
+    "workers": 8,
+    "host": "http://host:3000/render/d-solo/",
+    "token": "from_grafana",
+    "path_dir": "C:\\Users\\user\\pics",
+    "from": "26/05/20 09:22:18",
+    "to": "26/05/20 11:35:38",
+    "items_pics": [
+      {
+        "dash": "dashboard_name_from_adress_string",
+        "dash_key": "key_from_adress_string",
+        "orgId": 1,
+        "panelIds": "number_panelId,number_panelId,number_panelId,number_panelId,number_panelId,number_panelId",
+        "width": 1000,
+        "height": 500,
+        "tz": "Europe%2FMoscow"
+      },
+      {
+        "dash": "dashboard_name_from_adress_string-health",
+        "dash_key": "key_from_adress_string",
+        "orgId": 1,
+        "panelIds": "160,161",
+        "width": 1000,
+        "height": 500,
+        "tz": "Europe%2FMoscow"
+      }
+    ]
+  }
+}
